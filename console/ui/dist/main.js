@@ -9440,7 +9440,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function LoginComponent_div_4_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
@@ -9463,38 +9463,38 @@ const _c1 = function (a0) {
 function LoginComponent_div_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 18)(1, "h3", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 7)(1, "h3", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "Sign in to continue to the Nakama Dashboard");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](3, LoginComponent_div_4_div_3_Template, 2, 1, "div", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "form", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](3, LoginComponent_div_4_div_3_Template, 2, 1, "div", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "form", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("ngSubmit", function LoginComponent_div_4_Template_form_ngSubmit_4_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r5);
       const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r4.onSubmit());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 22)(6, "label", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 11)(6, "label", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "Username");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "input", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "input", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "Please enter a username.");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "div", 22)(12, "label", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "div", 11)(12, "label", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, "Password");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](14, "input", 27);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](14, "input", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "div", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, "Password must be at least 8 characters.");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "div", 28)(18, "label", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "div", 17)(18, "label", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "MFA Code");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](20, "input", 30);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](20, "input", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "div", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](22, "Code must contain 6 digits.");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "button", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "button", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
   }
@@ -9599,9 +9599,9 @@ class LoginComponent {
   static ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
     type: LoginComponent,
     selectors: [["ng-component"]],
-    decls: 37,
+    decls: 9,
     vars: 2,
-    consts: [[1, "d-flex", "flex-column", "flex-lg-row", "h-100", "relative"], ["src", "/static/svg/logo-white.svg", "alt", "Nakama Logo", "width", "175", "height", "43", 1, "logo"], [1, "login-panel"], [1, "align-self-center", "login-form"], ["class", "px-4", 4, "ngIf", "ngIfElse"], ["mfa", ""], [1, "heroic-stack"], [1, ""], ["src", "/static/svg/hiro-logo.svg", "alt", "Hiro Logo", "width", "110", "height", "50", 1, "mb-3"], ["href", "https://www.youtube.com/playlist?list=PLOAExZcDNj9sWny_J8J5ARkxDTwAV0i6f&utm_source=NOSS%20Sign-In&utm_medium=Banner&utm_campaign=NOSS%20Reconstructing%20Fun%20Sign-In", "target", "_blank"], ["href", "https://heroiclabs.com/hiro/?utm_source=NOSS%20Sign-In&utm_medium=Banner&utm_campaign=NOSS%20Hiro%20Sign-In", "target", "_blank", 1, "login-link"], ["src", "/static/svg/satori-logo.svg", "alt", "Satori Logo", "width", "134", "height", "50", 1, "mb-3"], ["href", "https://heroiclabs.com/satori/?utm_source=NOSS%20Sign-In&utm_medium=Banner&utm_campaign=NOSS%20Satori%20Sign-In", "target", "_blank", 1, "login-link"], [1, "d-flex", "align-items-center", "mb-3"], ["src", "/static/svg/calendar.svg", "alt", "Calendar"], [1, "font-weight-bold", "ml-2", 2, "font-size", "20px"], ["href", "https://heroiclabs.com/bookademo?utm_source=NOSS%20Sign-In&utm_medium=Banner&utm_campaign=NOSS%20Book%20a%20Demo%20Sign-In", "target", "_blank", 1, "login-link-pink"], ["src", "/static/svg/phone.svg", "alt", "Phone"], [1, "px-4"], [1, "login-title", "mb-4"], ["class", "alert alert-warning", "role", "alert", 4, "ngIf"], [3, "formGroup", "ngClass", "ngSubmit"], [1, "form-group"], ["for", "username"], ["type", "text", "id", "username", "formControlName", "username", "required", "", "autofocus", "", 1, "form-control", 3, "ngClass"], [1, "invalid-tooltip", 3, "hidden"], ["for", "password"], ["type", "password", "id", "password", "formControlName", "password", "required", "", 1, "form-control", 3, "ngClass"], [1, "form-group", 3, "hidden"], ["for", "code"], ["type", "code", "id", "code", "formControlName", "code", "required", "", 1, "form-control", 3, "ngClass"], [1, "btn", "btn-primary", "btn-lg", "btn-block", 3, "disabled"], ["role", "alert", 1, "alert", "alert-warning"]],
+    consts: [[1, "d-flex", "flex-column", "flex-lg-row", "h-100", "relative"], ["src", "/static/svg/logo-white.svg", "alt", "Nakama Logo", "width", "175", "height", "43", 1, "logo"], [1, "login-panel"], [1, "align-self-center", "login-form"], ["class", "px-4", 4, "ngIf", "ngIfElse"], ["mfa", ""], [1, "heroic-stack"], [1, "px-4"], [1, "login-title", "mb-4"], ["class", "alert alert-warning", "role", "alert", 4, "ngIf"], [3, "formGroup", "ngClass", "ngSubmit"], [1, "form-group"], ["for", "username"], ["type", "text", "id", "username", "formControlName", "username", "required", "", "autofocus", "", 1, "form-control", 3, "ngClass"], [1, "invalid-tooltip", 3, "hidden"], ["for", "password"], ["type", "password", "id", "password", "formControlName", "password", "required", "", 1, "form-control", 3, "ngClass"], [1, "form-group", 3, "hidden"], ["for", "code"], ["type", "code", "id", "code", "formControlName", "code", "required", "", 1, "form-control", 3, "ngClass"], [1, "btn", "btn-primary", "btn-lg", "btn-block", 3, "disabled"], ["role", "alert", 1, "alert", "alert-warning"]],
     template: function LoginComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -9610,41 +9610,9 @@ class LoginComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](4, LoginComponent_div_4_Template, 25, 20, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](5, LoginComponent_ng_template_5_Template, 1, 0, "ng-template", null, 5, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 2)(8, "div", 6)(9, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "img", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "A metagame framework built on Nakama to add virtual store, rewards, event leaderboards and much more rapidly and flexibly to your game. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, "RECONSTRUCTING FUN");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, " on YouTube shows you how.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](17, "Explore Hiro");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](18, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](19, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](20, "img", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](22, "LiveOps for your live services game. Live events, Experiments, Feature Flags, Audience Segmentation and Analytics built to work independently but beautifully with Nakama.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24, "Explore Satori");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](25, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "div")(27, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](28, "img", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "span", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](30, "Working at a Game Studio?");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](31, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](32, "Ready to take your game development to the next level? Contact us for a free 45 minute demo call.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](33, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](34, "img", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](35, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](36, "Schedule a call with us");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()();
       }
       if (rf & 2) {
         const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](6);
