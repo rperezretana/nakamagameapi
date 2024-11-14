@@ -3,7 +3,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/heroiclabs/nakama.svg)](https://heroiclabs.com/docs/nakama/getting-started/install/)
 [![Forum](https://img.shields.io/badge/forum-online-success.svg)](https://forum.heroiclabs.com)
-[![License](https://img.shields.io/github/license/heroiclabs/nakama.svg)](https://github.com/heroiclabs/nakama/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/heroiclabs/nakama.svg)](https://github.com/rperezretana/nakamagameapi/blob/master/LICENSE)
 
 > Distributed server for social and realtime games and apps.
 
@@ -46,7 +46,7 @@ Nakama Docker images are maintained on [Docker Hub](https://hub.docker.com/r/her
 
 You can run the servers with native binaries for your platform.
 
-1. Download the server from our [releases](https://github.com/heroiclabs/nakama/releases) page and the [database](https://www.cockroachlabs.com/docs/stable/install-cockroachdb.html).
+1. Download the server from our [releases](https://github.com/rperezretana/nakamagameapi/releases) page and the [database](https://www.cockroachlabs.com/docs/stable/install-cockroachdb.html).
 
 2. Follow the database [instructions](https://www.cockroachlabs.com/docs/stable/start-a-local-cluster.html#before-you-begin) to start it.
 
@@ -107,15 +107,6 @@ Nakama can be deployed to any cloud provider such as Google Cloud, Azure, AWS, D
 
 The recommended minimum production infrastructure for CockroachDB is outlined in [these docs](https://www.cockroachlabs.com/docs/stable/recommended-production-settings.html#basic-hardware-recommendations) and Nakama can be run on instance types as small as "g1-small" on Google Cloud although we recommend a minimum of "n1-standard-1" in production. The specific hardware requirements will depend on what features of the server are used. Reach out to us for help and advice on what servers to run.
 
-### Heroic Cloud
-
-You can support development, new features, and maintainance of the server by using the Heroic Labs' [Heroic Cloud](https://heroiclabs.com/heroic-cloud/) for deployment. This service handles the uptime, replication, backups, logs, data upgrades, and all other tasks involved with production server environments.
-
-Have a look at our [Heroic Cloud](https://heroiclabs.com/heroic-cloud/) service for more details.
-
-## Contribute
-
-The development roadmap is managed as GitHub issues and pull requests are welcome. If you're interested to add a feature which is not mentioned on the issue tracker please open one to create a discussion or drop in and discuss it in the [community forum](https://forum.heroiclabs.com).
 
 ### Simple Builds
 
@@ -124,7 +115,7 @@ All dependencies required for a build are vendored as part of the Go project. We
 1. Download the source tree.
 
    ```shell
-   git clone "https://github.com/heroiclabs/nakama" nakama
+   git clone "https://github.com/rperezretana/nakamagameapi" nakama
    cd nakama
    ```
 
@@ -183,4 +174,4 @@ all the tests, and drop the environment afterwards.
 
 ### License
 
-This project is licensed under the [Apache-2 License](https://github.com/heroiclabs/nakama/blob/master/LICENSE).
+This project is licensed under the [Apache-2 License](https://github.com/rperezretana/nakamagameapi/blob/master/LICENSE).

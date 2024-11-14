@@ -68,7 +68,7 @@ In a regular development cycle you will often recompile your plugin code and rer
     ./nakama --runtime.path "$HOME/plugin_code"
     ```
 
-   __TIP__: You can either build and run Nakama from source or you can download a prebuilt binary for your platform [here](https://github.com/heroiclabs/nakama/releases).
+   __TIP__: You can either build and run Nakama from source or you can download a prebuilt binary for your platform [here](https://github.com/rperezretana/nakamagameapi/releases).
 
 For more information on how the server loads modules have a look at [these](https://heroiclabs.com/docs/runtime-code-basics/#load-modules) docs. For general instructions on how to run the server give [these](https://heroiclabs.com/docs/install-start-server/#start-nakama) docs a read.
 
@@ -103,4 +103,4 @@ For Windows development and environments where you want to use our official Dock
 
 Have a look in this repo for more example code on how to create and use various parts of the game server Go runtime support. The project implements a fully authoritative example of tic-tac-toe in Go, Lua and TS.
 
-https://github.com/heroiclabs/nakama-project-template
+https://github.com/rperezretana/nakamagameapi-project-template

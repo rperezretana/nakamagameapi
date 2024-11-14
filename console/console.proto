@@ -35,7 +35,7 @@ option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
     version: "2.0";
     contact: {
       name: "The Nakama Authors & Contributors";
-      url: "https://github.com/heroiclabs/nakama";
+      url: "https://github.com/rperezretana/nakamagameapi";
       email: "hello@heroiclabs.com";
     };
   };
