@@ -36,8 +36,6 @@ RUN git checkout --quiet "$commit" && \
 
 FROM debian:bookworm-slim
 
-MAINTAINER Heroic Labs <support@heroiclabs.com>
-
 ARG version
 
 LABEL version=$version
